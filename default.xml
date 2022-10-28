@@ -5,6 +5,6 @@
 <!--  default: revision 指定分支，remote 指定remote name，sync-j 同步线程数  -->
 <default revision="dev" remote="origin" sync-j="2"/>
 <!--  project：path 本地相对路径，name 远程相对路径，完整路径为 remote.fetch + project.name  -->
-<project path="parent" name="repoParent.git" revision="main"/>
+<project path="parent" name="repoParent.git" revision="dev"/>
 <project path="sub" name="subTree.git" revision="dev"/>
 </manifest>
